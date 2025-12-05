@@ -27,7 +27,7 @@ const PixelGridIcon = ({ variant = 'default' }: { variant?: 'default' | 'orange'
 };
 
 const Header = () => (
-  <div className="absolute top-0 left-0 w-full z-50 flex items-center justify-between px-8 py-6 max-w-[1440px] mx-auto left-0 right-0">
+  <div className="absolute top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-6 max-w-[1440px] mx-auto">
     {/* Left Logo Section */}
     <div className="flex items-center gap-4">
       <div className="w-6 h-6 bg-black flex items-center justify-center">
@@ -107,11 +107,11 @@ const App: React.FC = () => {
 
         {/* Centre overlay text, NO background on the text */}
         <div className="relative z-10 max-w-[960px] px-6 text-center">
-          <h1 className="font-mono font-semibold text-[48px] md:text-[68px] leading-[1.1] tracking-tighter text-white">
+          <h1 className="font-mono font-semibold text-[48px] md:text-[60px] leading-[1.1] tracking-tighter text-white">
             High-Frequency Financial Analytics for Startups.
           </h1>
-          <p className="mt-6 font-mono text-[18px] md:text-[20px] leading-[1.3] tracking-tight text-gray-300 line spacing-[-5px]">
-            Volt aggregates your Stripe, PayPal, and bank data into a single source of truth.
+          <p className="mt-6 font-mono text-[18px] md:text-[20px] leading-[1.3] tracking-tight text-gray-300">
+            Volt aggregates your Stripe, PayPal, and bank data <br />into a single source of truth.
           </p>
         </div>
       </section>
