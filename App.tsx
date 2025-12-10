@@ -222,7 +222,7 @@ const App: React.FC = () => {
                         {/* tooltip card with brackets */}
                         <div className="pointer-events-none absolute -top-[110px] left-1/2 -translate-x-1/2 flex items-center">
                           {/* left bracket */}
-                          <div className="w-[10px] h-[28px] border border-[#FE4E1D] border-r-0" />
+                          <div className="w-[-4px] h-[48px] border border-[#FE4E1D] border-r-0" />
 
                           {/* card */}
                           <div className="bg-[#121212] px-[10px] py-[10px] flex flex-col gap-[8px] w-[103px]">
@@ -237,7 +237,7 @@ const App: React.FC = () => {
                           </div>
 
                           {/* right bracket */}
-                          <div className="w-[10px] h-[28px] border border-[#FE4E1D] border-l-0" />
+                          <div className="w-[-4px] h-[48px] border border-[#FE4E1D] border-l-0" />
                         </div>
                       </>
                     )}
